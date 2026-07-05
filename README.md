@@ -1,3 +1,5 @@
+# Comento CV Week 1 - Basic Image Processing
+
 ## 주제
 Git을 활용한 코드 관리 및 픽셀 단위 이미지 처리 실습
 
@@ -12,8 +14,34 @@ Git을 활용한 코드 관리 및 픽셀 단위 이미지 처리 실습
 - Gaussian Blur를 활용한 노이즈 완화
 - 결과 이미지 저장
 
+## 사용 기술
+
+- Python
+- OpenCV
+- NumPy
+- Git / GitHub
+
+## 파일 구성
+
+```text
+.
+├── day1.ipynb
+├── image_processing.py
+├── sample.jpg
+├── outputs/
+└── README.md
+
 ## 실행 방법
 
 ```bash
 pip install opencv-python numpy
 python image_processing.py
+
+## 결과물
+
+outputs/
+├── 01_resized.jpg
+├── 02_red_mask.jpg
+├── 03_red_filtered.jpg
+├── 04_grayscale.jpg
+└── 05_blurred.jpg
