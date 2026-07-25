@@ -1,0 +1,7 @@
+model,top1,top5,train_sec
+yolov8n-cls.pt,0.6825,0.9825,305.2
+yolov8s-cls.pt,0.7425,0.98,983.0
+yolov8m-cls.pt,0.7775,0.985,11840.4
+yolo11n-cls.pt,0.6825,0.9925,575.1
+yolo11s-cls.pt,0.755,0.9875,1064.8
+yolo11m-cls.pt,0.75,0.99,1960.2

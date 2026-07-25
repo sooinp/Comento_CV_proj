@@ -8,6 +8,6 @@ env/
 .env
 tmp/
 scratch/
-datasets/
-raw_data/
-outputs/*.npy
+data/
+runs/
+*.pt
