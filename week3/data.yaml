@@ -1,0 +1,30 @@
+# Roboflow Universe: my-workspace-1/natural-object-detection (version 3, CC BY 4.0)
+# https://universe.roboflow.com/my-workspace-1/natural-object-detection/dataset/3
+train: ./datasets/train/images
+val: ./datasets/valid/images
+test: ./datasets/test/images
+
+nc: 22
+names:
+  - Blur
+  - Camouflage
+  - Foggy
+  - Overlap
+  - Patches
+  - Person
+  - Poor lighting
+  - Rain
+  - Snow
+  - Squirrel
+  - cars
+  - cats
+  - cheetah
+  - dogs
+  - fox
+  - frog
+  - lion
+  - owl
+  - stop sign
+  - tiger
+  - traffic light
+  - wolf
